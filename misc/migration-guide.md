@@ -18,9 +18,7 @@ Also use TypeScript v5.
 
 To assist with the upgrade from i18n  v22.x.x to v23.0.0, we have added features that utilize codemods to automatically update your code to many of the new APIs and patterns. Run the following command to automatically update your code for i18n v23.0.0 migration:
 
-```bash
-npx codemod i18n/v23.0.0/migration-recipe
-```
+  
 This will run the following codemods from the i18n Codemod repository:
 
 - **add-namespace-type-annotation**
